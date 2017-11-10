@@ -1,4 +1,9 @@
 {
     "name": "lexgorbachev/dev",
-    "require": {}
+    "require": {
+        "klein/klein": "^2.1",
+        "doctrine/orm": "^2.5",
+        "fenom/fenom": "^2.11",
+        "twitter/bootstrap": "^3.3"
+    }
 }
