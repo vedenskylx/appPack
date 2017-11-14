@@ -11,7 +11,8 @@ require_once __DIR__ . '/vendor/autoload.php';
 $klein = new \Klein\Klein();
 
 $klein->respond('GET', '/', function () {
-    return 'Yep!';
+    $class= new \app\Page();
+    return $class->Run();
 });
 
 $klein->dispatch();
